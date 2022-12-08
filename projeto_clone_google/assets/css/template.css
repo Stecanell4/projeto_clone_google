@@ -1,0 +1,169 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.container{
+    display: flex;
+}
+
+.menu_gmail,.menu_imagens{
+    margin-right: 15px;
+    margin-top: 20px;
+}
+
+.menu_gmail a,.menu_imagens a{
+    text-decoration: none;
+    color: inherit;
+    font-size: 14px;
+    font-family: arial,sans-serif;
+}
+
+.menu_menuzin, .menu_foto{
+    margin-right: 15px;
+    margin-top: 15px;
+}
+
+.menu_menuzin img{
+    height: 30px;
+    width: 30px;
+}
+
+.menu_foto img{
+    height: 40px;
+    width: 40px;
+    border-radius: 25px;
+}
+
+#section_01{
+    width: 100%;
+    height: 575px;
+}
+
+.logo_google img{
+    width: 250px;
+    height: 180px;
+}
+
+.logo_google{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 200px;
+}
+
+.barra_pesquisa{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 40px;
+}
+
+#txtBusca{
+    border-radius: 15px;
+    width: 500px;
+    height: 38px;
+    border: 1px solid rgb(158, 158, 158);
+    font-size: 20px;
+    margin-left: 5px;
+}
+
+.botoes{
+    display: flex;
+    flex-direction: row;
+}
+
+.botao_pesquisa button, .botao_sorte button{
+    font-size: 15px;
+    background-color: rgb(230, 230, 230);
+    border-radius: 5px;
+    border: 0;
+    padding: 15px;
+    cursor: pointer;
+    color: rgb(80, 80, 80);
+}
+
+.botao_pesquisa{
+    margin-right: 30px;
+    margin-left: 780px;
+}
+
+.botao_pesquisa, .botao_sorte{
+    margin-top: 30px;
+}
+
+.outros{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-top: 1px solid rgb(41, 41, 41);
+    background-color:rgb(230, 230, 230); 
+    padding: 15px;
+}
+
+.outros_esquerdo{
+    display: flex;
+    flex-direction: row;
+}
+
+.outros_direito{
+    display: flex;
+    flex-direction: row;
+}
+
+.outros_direito a,  .outros_esquerdo a{
+    text-decoration: none;
+    color: inherit;
+    font-size: 14px;
+    font-family: arial,sans-serif;
+}
+
+.faaal{
+    margin-left: 15px;
+    margin-top: 3px;
+}
+
+.baixo{
+    margin-right: 15px;
+    margin-top: 3px;
+}
+
+.brasil{
+    background-color: rgb(230, 230, 230);
+    padding: 15px;
+}
+
+.br{
+    margin-left: 15px;
+    margin-bottom: 3px;
+}
+
+.br a{
+    text-decoration: none;
+    color: inherit;
+    font-size: 14px;
+    font-family: arial,sans-serif;
+}
+
+@media (max-width:600px){
+    
+    .nao_aparecer{
+        display: none;
+    }
+
+    .menu_gmail,.menu_foto,.menu_imagens,.menu_menuzin{
+        margin-left: 80px;
+    }
+
+    .botao_pesquisa{
+        margin-left: 150px;
+    }
+}
